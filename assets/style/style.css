@@ -21,7 +21,7 @@ header{
 }
 
 .navbar{
-    background-color: white;
+    background-color: #064663;
     text-align: left;
     width: 100%;
     position: sticky;
@@ -32,7 +32,7 @@ header{
     display: inline-block;
     padding: 20px;
     font-size: 18px;
-    color: black;
+    color: white;
     text-decoration: none;
     vertical-align: middle;
 }
@@ -51,7 +51,13 @@ header{
     padding: 100px;
     height: auto;
 }
-
+.banner-below{
+    background-color: #064663;
+    color: white;
+    text-align: left;
+    padding: 100px;
+    height: auto;
+}
 .banner-text h1{
     font-family: 'Merriweather';
     font-weight: 400;
@@ -68,7 +74,7 @@ header{
     height: 600px;
     background-position: center;
     object-fit: cover;
-    margin-bottom: 20px;
+    
 
 }
 

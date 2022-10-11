@@ -23,6 +23,8 @@
                 </div>
             </div>
             <img src="assets/image/2people-min.jpg" class="banner-image" alt="">
+            <div class="banner-below">
+                <h1 id="why-click">Why did I choose photography?</h1>
             </div>
             <div id="wrap">
                 <div class="content-box">
@@ -102,5 +104,16 @@
         <footer>
             <p>Himawan &#169; 2022, Yogyakarta</p>
         </footer>
+    <script>
+        document.getElementById('why-click').onclick = function(){answer()};
+
+        function answer() {
+            document.getElementById('why-click').innerHTML = "Because It's Fun!";
+        }
+
+
+        
+
+    </script>
     </body>
 </html>
